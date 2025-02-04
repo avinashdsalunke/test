@@ -25,7 +25,7 @@ public class eCommerce_tc_4_Hybrid extends AndroidBaseTest {
 	
 		//ProductCatalogue1 productcatalogue1 =new ProductCatalogue1(driver);
 		productcatalogue1.addItemToCartByIndex(0);
-		productcatalogue1.addItemToCartByIndex(1);
+		productcatalogue1.addItemToCartByIndex(0);
 		CartPage1 CartPage1= productcatalogue1.GotoCartPage();
 	
 		double totalSum = CartPage1.getProductsSum();

@@ -7,7 +7,7 @@
         <methods>
           <include name="tearDown"/>
           <include name="ConfigureAppium"/>
-          <include name="FillForm" invocation-numbers="0 1"/>
+          <include name="FillForm"/>
         </methods>
       </class> <!-- org.rahulshetty1.eCommerce_tc_4_Hybrid -->
     </classes>
